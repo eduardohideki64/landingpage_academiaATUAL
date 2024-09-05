@@ -1,0 +1,193 @@
+body {
+    background-image: url('pixelcut-export.jpeg');
+    background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
+    background-position: -90px; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    width: 20%; /* Largura total do contêiner */
+    height: 750px; /* Altura específica do contêiner */
+    z-index: 0; /* Define o índice de empilhamento mais alto */
+
+}
+
+.intro{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 50px;
+    margin-left: 100px;
+    margin-top: 100px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Deslocamento e desfoque */
+    position: absolute;
+}
+.intro2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    margin-left: 310px;
+    color: #fece00;
+    margin-top: 90px;
+    font-style: italic;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Deslocamento e desfoque */
+    position: absolute;
+}
+.intro3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    margin-left: 200px;
+    margin-top: 160px;
+    color: #fece00;
+    font-style: italic;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Deslocamento e desfoque */
+    position: absolute;
+}
+.intro4{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 50px;
+    margin-left: 675px;
+    margin-top: 170px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Deslocamento e desfoque */
+    position: absolute;
+}
+.intro5{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 70px;
+    margin-left: 270px;
+    color: #fece00;
+    margin-top: 230px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Deslocamento e desfoque */
+    position: absolute;
+}
+.marcelo{
+    position: absolute;
+    margin-top: 325px;
+    margin-left: 750px;
+    z-index: 1; /* Define o índice de empilhamento mais alto */
+}
+.logo{
+    position: absolute;
+    width: 70px;
+    margin-left: 1400px;
+}
+.textin{
+    position: absolute;
+    color: white;
+    margin-top: 500px;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 40px;
+    margin-top: 360px;
+}
+.joojj{
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 460px;
+    margin-left: 40px;
+}
+.preco-promocao {
+    position: absolute;
+    font-size: 70px;
+    color: #fece00; /* Cor bronze */
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5), /* Sombra para profundidade */
+                         0 0 25px rgba(255, 215, 0, 0.5); /* Efeito de brilho dourado */
+    margin-top: 540px;
+    margin-left: 220px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.preco-original {
+    font-size: 1.2em;
+    color: #7f8c8d; /* Cor do preço original */
+    text-decoration: line-through; /* Adiciona o risco sobre o preço original */
+    margin-right: 0.5em; /* Espaço entre o preço original e o preço promocional */
+    position: absolute;
+    margin-top: 570px;
+    margin-left: 100px;
+}
+.intro55{
+    position: absolute;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 600px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Deslocamento e desfoque */
+    position: absolute;
+}
+.intro555{
+    position: absolute;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 20px;
+    margin-left: 510px;
+    margin-top: 600px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Deslocamento e desfoque */
+    position: absolute;
+}
+.carcas{
+    position: static;
+    margin-top: 640px;
+    background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
+    background-position: -90px; /* Centraliza a imagem */
+   
+    width: 1725px; /* Largura total do contêiner */
+    height: 750px; /* Altura específica do contêiner */
+    z-index: 2; /* Define o índice de empilhamento mais alto */
+    order: 1; /* Define a ordem para garantir que a imagem sobreposta apareça acima */
+ 
+}
+
+.botao-dourado {
+    display: inline-block; /* Faz o botão se ajustar ao conteúdo */
+    background-color: #FFD700; /* Cor dourada */
+    color: #333; /* Cor do texto (preto escuro para contraste) */
+    padding: 12px 24px; /* Espaçamento interno: vertical e horizontal */
+    border: none; /* Remove bordas */
+    border-radius: 5px; /* Arredonda os cantos */
+    font-size: 20px; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    text-align: center; /* Centraliza o texto */
+    text-decoration: none; /* Remove sublinhado, se for um link */
+    cursor: pointer; /* Mostra um cursor de pointer ao passar o mouse */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Transição suave para efeitos de hover */
+    position: absolute;
+    margin-top: 750px;
+    margin-left: 790px;
+    width: 380px;
+    height: 60px;
+}
+
+.botao-dourado:hover {
+    background-color: #FFC107; /* Cor dourada mais clara ao passar o mouse */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona sombra para efeito de profundidade */
+}
+
+.botao-dourado:active {
+    background-color: #FFA000; /* Cor dourada ainda mais escura ao clicar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Ajusta a sombra ao clicar */
+}
+.carrou{
+    position: absolute;
+    width: 450px;
+    margin-top: 750px;
+    margin-left: 40px;
+}
+.joojj2{
+    position: absolute;
+    color:  #ffffff;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 1240px;
+    margin-left: 40px;
+}
+
+.faca{
+        font-family: "Pacifico", cursive;
+        font-weight: 400;
+        font-style: normal;
+        color:  #fece00;
+        position: absolute;
+        margin-top: 1260px;
+        margin-left: 230px;
+        font-size: 40px;
+      
+}
